@@ -2,13 +2,13 @@
   {
     "id": "D8-hEWB",
     "names": {
-      "preferredName": "Israel",
-      "middleName": "Benjamin",
-      "surname": "Rodriguez"
+      "preferredName": "Anthony",
+      "middleName": "K",
+      "surname": "Owens"
     },
-    "username": "israel.rodriguez@pursuit.org",
-    "dob": "2/3/1979",
-    "profilePhoto": "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=38&maximum_age=48",
+    "username": "anthony.owens@pursuit.org",
+    "dob": "06/13/1996",
+    "profilePhoto": "https://avatars.githubusercontent.com/u/129772708?v=4",
     "codewars": {
       "current": { "total": 1804, "lastWeek": 144 },
       "goal": { "total": 850, "lastWeek": 75 }
@@ -26,8 +26,8 @@
       }
     ],
     "cohort": {
-      "cohortCode": "Winter2025",
-      "cohortStartDate": "12/1/25",
+      "cohortCode": "KeeptTheSameEnergy",
+      "cohortStartDate": "3/10/23",
       "scores": { "assignments": 0.71, "projects": 0.7, "assessments": 0.66 }
     }
   },
