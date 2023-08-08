@@ -1,30 +1,30 @@
-// import data from "../data/data.json"
-// // import { useState } from "react";
+import data from "../data/data.json"
+// import { useState } from "react";
 
-//  function studentList(){
-//    const studentsForRender = data.map(
+ function studentList(){
+   const studentsForRender = data.map(
     
-//     (eachStudentObj)=>{
-//         return( <div>
-//        <img src="" alt= "Image of student" />
-//        <h4>{eachStudentObj.username}</h4>
+    (eachStudentObj)=>{
+        return( <div>
+       <img src="" alt= "Image of student" />
+       <h4>{eachStudentObj.username}</h4>
 
-//         </div>
+        </div>
         
-//         )
-//        }
+        )
+       }
    
-// )
-//    return(
-// <div class="list">
-// <h4>List Of Students</h4>
-// {studentList}
+)
+   return(
+<div className="list">
+<h4>List Of Students</h4>
+{studentList}
 
-// </div>
+</div>
 
 
-//    );
+   );
 
-// }
+}
 
-// export default  studentList();
+export default  studentList();
