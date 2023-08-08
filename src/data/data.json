@@ -7,26 +7,26 @@
       "surname": "Owens"
     },
     "username": "anthony.owens@pursuit.org",
-    "dob": "06/13/1996",
+    "dob": "06/13/96",
     "profilePhoto": "https://avatars.githubusercontent.com/u/129772708?v=4",
     "codewars": {
       "current": { "total": 1804, "lastWeek": 144 },
       "goal": { "total": 850, "lastWeek": 75 }
     },
     "certifications": {
-      "resume": false,
-      "linkedin": false,
-      "github": false,
+      "resume": true,
+      "linkedin": true,
+      "github": true,
       "mockInterview": false
     },
     "notes": [
       {
-        "commenter": "Alan R.",
-        "comment": "Israel is a pleasure to work with!"
+        "commenter": "Myself.",
+        "comment": "Antman is a pleasure to work with!"
       }
     ],
     "cohort": {
-      "cohortCode": "KeeptTheSameEnergy",
+      "cohortCode": "KeepThatSameEnergy",
       "cohortStartDate": "3/10/23",
       "scores": { "assignments": 0.71, "projects": 0.7, "assessments": 0.66 }
     }
