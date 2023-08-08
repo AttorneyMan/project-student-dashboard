@@ -9,7 +9,7 @@ export default function Grid(props) {
     return (
 
         <div className="container">
-            {cells}
+           {cells}
         </div>
     )
 }

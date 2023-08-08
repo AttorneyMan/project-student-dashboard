@@ -1,30 +1,28 @@
-import data from "../data/data.json"
-// import { useState } from "react";
+import data from "../data/data.json";
 
- function studentList(){
-   const studentsForRender = data.map(
+
+ export default function studentList(){
+    const studentsForRender = data.map(
+
+        (eachStudentObj) => {
+          return (<>
+          <img src=" {eachStudentObj.profilePhoto}" alt="Image of Student" />
+        <h4>
+         Name : {eachStudentObj.names.preferredName},
+         Username: {eachStudentObj.username},
+         Dob: {eachStudentObj.dob},
+         Cohort: {eachStudentObj.cohort.cohortCode} 
+        </h4> 
+        </>
+            
+            )
+        }
     
-    (eachStudentObj)=>{
-        return( <div>
-       <img src="" alt= "Image of student" />
-       <h4>{eachStudentObj.username}</h4>
-
+      )
+      return (
+        <div className="App">
+          <h1>Student Dashboard</h1>
+          <Grid arrOfObj = {studentsForRender} />
         </div>
-        
-        )
-       }
-   
-)
-   return(
-<div className="list">
-<h4>List Of Students</h4>
-{studentList}
-
-</div>
-
-
-   );
-
-}
-
-export default  studentList();
+      );
+    }

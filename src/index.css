@@ -7,16 +7,16 @@ h1{
 
 .list {
     text-align: left;
-   display: grid;
-    border: 20px color-mix(in srgb-linear, green 25%, yellow 25%);
-    box-decoration-break: var(BlinkMacSystemFont);
-}
+   
+}*/
 
 
 .container {
     display: grid;
     column-gap: 30px; 
     row-gap: 30px; 
-    grid-template-columns: 60px; 
+    grid-template-columns: 20px; 
     grid-template-rows: 60px; 
   }
+
+ 
